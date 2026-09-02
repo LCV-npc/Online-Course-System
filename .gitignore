@@ -1,0 +1,38 @@
+# Environment and secrets (keep examples)
+.env
+.env.*
+!.env.example
+backend-spring/src/main/resources/application-local.properties
+backend-spring/src/main/resources/application-secrets.properties
+credentials*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Java / Maven
+backend-spring/target/
+*.class
+*.jar
+
+# Node / Vite
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Runtime and diagnostic output
+*.log
+logs/
+tmp/
+cache/
+dom_dump.html
+get_logs.mjs
